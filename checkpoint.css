@@ -1,0 +1,80 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+.gridOne .second-paragraph {
+    color: blue;
+}
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gridTwo .two-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gridTwo .two-items .red-item p {
+    background-color: red;
+}
+
+.gridTwo .two-items .blue-item p {
+    background-color: blue;
+}
+.gridTwo .yellow-item p {
+    background-color: yellow;
+}
+
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+}
+.gridThree .first-child {
+    background-color: blueviolet;
+    }
+.gridThree .second-child img {
+    width: 500px;
+    height: 225px;
+}
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: green;
+    width: 500px;
+    }
+.gridFour #right-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .gridFive {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 500px;
+        height: 400px;
+        }
+    .gridFive #last-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            object-fit: cover; 
+        }
+        .gridFive #last-grid .firstimage {
+            width: 200px;
+            height: 200px;
+        }
+        .gridFive #last-grid .secondimage {
+            width: 200px;
+            height: 200px;
+        }
+        .gridSix {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            width: 500px;
+            background-color: lightgray;
+            margin-top: 40px;
+            }
+        
+        .gridSix .Lasttag {
+            font-family: "Roboto", serif;
+            }
+        
